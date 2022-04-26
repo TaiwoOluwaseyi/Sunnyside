@@ -51,10 +51,11 @@ body {
  h1 {
     color: #fff;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1.5rem;
     text-transform: uppercase;
-    font-weight: 400px;
-    font-size: 1.5rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: 1rem;
 }
 
 .hero {
@@ -78,7 +79,21 @@ body {
     padding: 2rem 6rem;
 }
 
+.flex-items .right-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 6rem;
+}
+
+
 .flex-items .left-text h3 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.flex-items .right-text h3 {
     font-weight: 700;
     font-size: 3rem;
 }
@@ -87,7 +102,20 @@ body {
     line-height: 1.5rem;
 }
 
+.flex-items .right-text p {
+    line-height: 1.5rem;
+}
+
 .flex-items .left-text a {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.flex-items .right-text a {
     text-decoration: none;
     color: black;
     margin: 2rem;
