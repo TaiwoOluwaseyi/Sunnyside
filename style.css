@@ -164,6 +164,13 @@ img {
     text-align: center;
 }
 
+.testimonial-section p {
+    color: gray;
+    margin: 0 2rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
 .title {
     color: gray;
     padding: 0.5rem 0;
