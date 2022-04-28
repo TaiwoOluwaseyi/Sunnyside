@@ -179,3 +179,53 @@ img {
 .people {
     border-radius: 50%;
 }
+
+#picture-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#footer {
+    background-color: hsl(168, 34%, 41%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 4em;
+}
+
+#footer h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: hsl(167, 40%, 24%);
+    }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer ul li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+}
+
+.socials {
+    display: flex;
+}
+
+.socials img {
+    margin: 2rem ;
+}
