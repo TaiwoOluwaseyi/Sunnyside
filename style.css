@@ -13,7 +13,7 @@ body {
 
 /* Navbar */
 
-.menu{
+.menu, .toggler{
   display: none;
 }
 
